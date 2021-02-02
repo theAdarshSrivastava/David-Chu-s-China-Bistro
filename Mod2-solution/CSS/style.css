@@ -1,58 +1,64 @@
-* {
-    box-sizing: border-box;
-    font-family: Helvetica;
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
-body {
-    background-color: #d6d6d6;
+body{
+  font-family: 'Lato', sans-serif;  
 }
 
-h1 {
-    text-align: center;
-    color: black;
+.row{
+  width: 100%;
 }
 
-section {
-    border: 1px solid black;
-    background-color: #b5c4d2;
-    margin: 10px;
+.menu-title{
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-section>h2 {
-    float: right;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    margin: 0;
-    width: 230px;
-    text-align: center;
-    font-style: Times;
-    font-size: 24px;
-    font-weight: bold;
-    height: 45px;
-    padding-top: 10px;
+.container{
+ position: relative;
+ top:60px;
+ margin: 15px; 
 }
 
-section.sl>h2 {
-    background-color: #76b8db;
+.item{
+  position: relative;
+  top: 0;
+  background-color:#999999;
+  margin: 15px;
+  padding: 25px;
+  border: 3px solid #000;
 }
 
-section.usl>h2 {
-    background-color: #4f7acd;
+.item p{
+  margin-top: 18px;
+  text-align: justify;
+  font-size:100%;
 }
 
-section.rl>h2 {
-    color: #e2e2e2;
-    background-color: #10328a;
+.item-title{
+  position: absolute;
+  top:0;
+  right: 0px;
+  background: green; 
+  padding: 6px 90px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
 }
 
-section>p {
-    padding: 40px 15px 15px 15px;
+#title-one {
+  background-color: #D59898;
+} 
+
+#title-two{
+  background-color: #C14543;
 }
 
-.row {
-    width: 100%;
+#title-three{
+  background-color: #E5D198;
 }
-
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
@@ -182,5 +188,6 @@ section>p {
         width: 100%;
     }
 }
+
 
 
