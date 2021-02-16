@@ -93,22 +93,86 @@ body{
 }
 
 /*END OF HEADER*/
-
+/*Footer*/
+.panel-footer{
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+  color: #fff;
+}
+.panel-footer div.row{
+  margin-bottom: 35px;
+}
+#hours, #address{
+  line-height: 2;
+}
+#hours > span,#address > span{
+ font-size: 1.1em;
+}
+#address p{
+  color: red;
+  font-size: .7em;
+  line-height: 1.8;
+}
+/*Home Page*/
 .container .jumbotron{
   box-shadow: 0 0 50px maroon;
   border: 2px solid maroon;
 }
 
+#menu-tile, #specials-tile, #map-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid maroon;
+  overflow: hidden;
+}
 
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile{
+  background: url("../img/menu2.jpeg") no-repeat;
+  background-position: center;
+}
+
+#specials-tile{
+  background: url("../img/special.jpeg") no-repeat;
+  background-position: center;
+}
+
+#menu-tile span,#specials-tile span,#map-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+}
+
+
+/*End Of Home Page*/
+
+/********** Large devices only **********/
 @media(min-width: 1200px)
 {
 .container .jumbotron{
-    background: url('../img/jumbotron_1200.jpg') no-repeat;
+    background: url("../img/jumbotron_1200.jpg") no-repeat;
     height: 675px;
   }
 
 }
-@media(min-width: 992px)and(max-width: 1199px)
+
+/********** Medium devices only **********/
+@media(min-width: 992px) and (max-width: 1199px)
 {
   /*Header*/
   #logo-img{
@@ -118,19 +182,21 @@ body{
   margin: 5px 5px 5px 0;
   }
   .container .jumbotron{
-    background: url("../img/jumb992.jpg") no-repeat;
+    background: url("../img/jumbotron_992.jpg") no-repeat;
     height: 558px;
   }
 }
-@media(min-width: 768px)and(max-width: 991px)
-{
+
+/********** Small devices only **********/
+@media(min-width: 768px) and (max-width: 991px){
   .container .jumbotron{
-    background: url("../img/jumb768.jpg") no-repeat;
+    background: url("../img/jumbotron_768.jpg") no-repeat;
     height: 432px;
   }
 }
-@media(max-width: 767px)
-{
+
+/********** Extra small devices only **********/
+@media(max-width: 767px){
   .navbar-brand{
   padding-top:10px;
   height: 80px;
@@ -173,9 +239,29 @@ body{
     color: #FFF;
   }
   .container .jumbotron {
-    margin-top: 30px;
+    margin-top: 28px;
     padding: 0;
   }
+
+  #menu-tile, #specials-tile{
+    width: 360px;
+    margin: 0 auto 15px;
+  }
 }
+
+@media(max-width: 479px){
+  /*Header*/
+  .navbar-brand h1{
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+
+  #menu-tile, #specials-tile{
+    width:280px;
+    margin: 0 auto 15px;
+  }
+}
+
+
 
 
