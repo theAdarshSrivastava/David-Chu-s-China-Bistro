@@ -1,0 +1,181 @@
+body{
+	font-size: 16px;	
+  background-color: maroon;
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+#logo-img{
+  background: url("../img/logobk.png") no-repeat;
+  width:150px;
+  height:150px;
+  margin: 10px 15px 10px 0;
+}
+
+#header-nav{
+  background-color: #FFA200;  
+  border:2px solid #000; 
+  border-radius: 0;
+}
+
+.navbar-brand{
+  padding-top:25px;
+}
+
+.navbar-nav{
+  margin:0px -15px;
+}
+
+.navbar-brand h1{ /*Burger King*/
+  font-family: 'Exo 2', sans-serif;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand p{ /*Kosher certification*/
+  color: black;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+  text-decoration: none;  
+}
+.navbar-brand p span{
+  vertical-align: middle;
+}
+#nav-list
+{
+  margin-top: 10px;
+}
+
+#nav-list a{
+  color: maroon;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list a span{
+  font-size: 1.8em;
+}
+
+#phone{
+  margin-top: 5px;
+}
+
+#phone a{
+  text-align: right;
+  padding-bottom: 0;
+}
+
+#phone div{
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 2px solid #000;
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: 35px;
+}
+
+/*END OF HEADER*/
+
+.container .jumbotron{
+  box-shadow: 0 0 50px maroon;
+  border: 2px solid maroon;
+}
+
+
+@media(min-width: 1200px)
+{
+.container .jumbotron{
+    background: url('../img/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+
+}
+@media(min-width: 992px)and(max-width: 1199px)
+{
+  /*Header*/
+  #logo-img{
+  background: url("../img/logo_medium.png") no-repeat;
+  width:100px;
+  height:100px;
+  margin: 5px 5px 5px 0;
+  }
+  .container .jumbotron{
+    background: url("../img/jumb992.jpg") no-repeat;
+    height: 558px;
+  }
+}
+@media(min-width: 768px)and(max-width: 991px)
+{
+  .container .jumbotron{
+    background: url("../img/jumb768.jpg") no-repeat;
+    height: 432px;
+  }
+}
+@media(max-width: 767px)
+{
+  .navbar-brand{
+  padding-top:10px;
+  height: 80px;
+}
+
+.navbar-brand h1{ /*Burger King*/
+  font-size: 5vw;
+  padding-top: 10px;
+}
+
+.navbar-brand p{ /*Kosher certification*/
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
+.navbar-brand p img{
+  height: 20px;
+}
+#collapsable-nav a{
+  font-size: 1.2em;
+}
+#collapsable-nav a span{ 
+  font-size: 1em;
+  margin-right: 5px;
+}
+#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #FFF;
+  }
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+}
+
+
