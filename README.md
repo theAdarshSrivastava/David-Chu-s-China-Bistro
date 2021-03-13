@@ -11,7 +11,11 @@ Here's a dummy website created for the restaurant named above. You can go to the
 
 Here's the demonstration how this web-application is used in effective manner:
 
-![Farmers Market Finder Demo](demo/demo.gif)
+![Demo](demo/demo.gif)
+
+![Demo](demo/demo1.gif)
+
+![Demo](demo/demo2.gif)
 
 
 
