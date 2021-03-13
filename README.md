@@ -19,10 +19,5 @@ Here's the demonstration how this web-application is used in effective manner:
 
 ![Demo1](demo/demo1.gif)
 
-3)Navigate through Map
-
-![Demo2](demo/demo2.gif)
-
-
 
 
