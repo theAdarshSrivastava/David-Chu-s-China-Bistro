@@ -12,12 +12,15 @@ Here's a dummy website created for the restaurant named above. You can go to the
 Here's the demonstration how this web-application is used in effective manner:
 
 1)Opening website
+
 ![Demo](demo/demo.gif)
 
 2)Checkout menu and specials
+
 ![Demo1](demo/demo1.gif)
 
 3)Navigate through Map
+
 ![Demo2](demo/demo2.gif)
 
 
