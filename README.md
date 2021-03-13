@@ -11,4 +11,8 @@ Here's a dummy website created for the restaurant named above. You can go to the
 
 Here's the demonstration how this web-application is used in effective manner:
 
+https://user-images.githubusercontent.com/77750467/111022998-566e5280-83fc-11eb-9906-3514f813eef7.mp4
+
+
+
 
