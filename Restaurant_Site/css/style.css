@@ -1,100 +1,93 @@
-body{
-	font-size: 16px;	
-  background-color: maroon;
-  font-family: 'Exo 2', sans-serif;
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #8C0000;
+  font-family: 'Reggae One', cursive;
 }
 
+/** HEADER **/
+#header-nav {
+  background-color: #FFA200;
+  border-radius: 0;
+  border: 2px solid #000;
+}
 
-#logo-img{
-  background: url("../img/logobk.png") no-repeat;
-  width:150px;
-  height:150px;
+#logo-img {
+  background: url('../img/restaurant-logo.png') no-repeat;
+  width: 150px;
+  height: 150px;
   margin: 10px 15px 10px 0;
 }
 
-#header-nav{
-  background-color: #FFA200;  
-  border:2px solid #000; 
-  border-radius: 0;
-}
-
-.navbar-brand{
-  padding-top:25px;
+.navbar-brand {
+  padding-top: 25px;
 }
 
 .navbar-nav{
-  margin:0px -15px;
+  margin: 0px -15px;
 }
-
-.navbar-brand h1{ /*Burger King*/
-  font-family: 'Exo 2', sans-serif;
-  color: black;
-  font-size: 2em;
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Reggae One', cursive;
+  color: maroon;
+  font-size: 1.6em;
+  text-transform: uppercase;
   font-weight: bold;
   margin-top: 0;
-  text-transform: uppercase;
   margin-bottom: 0;
   line-height: .75;
 }
-
-.navbar-brand p{ /*Kosher certification*/
-  color: black;
-  font-size: 0.9em;
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: maroon;
   text-transform: uppercase;
-  margin-top: 10px;
+  font-size: .9em;
+  margin-top: 15px;
   font-weight: bold;
 }
-
-.navbar-brand a:hover, .navbar-brand a:focus
-{
-  text-decoration: none;  
-}
-.navbar-brand p span{
+.navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
-#nav-list
-{
+
+#nav-list {
   margin-top: 10px;
 }
-
-#nav-list a{
+#nav-list a {
   color: maroon;
   text-align: center;
 }
 #nav-list a:hover {
   background: #E7E7E7;
 }
-
-#nav-list a span{
+#nav-list a span {
   font-size: 1.8em;
 }
 
-#phone{
+#phone {
   margin-top: 5px;
 }
-
-#phone a{
+#phone a { /* Phone number */
   text-align: right;
   padding-bottom: 0;
 }
-
-#phone div{
+#phone div { /* We Deliver */
   color: #557c3e;
   text-align: right;
   padding-right: 15px;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 2px solid #000;
 }
-.navbar-header button.navbar-toggle{
+.navbar-header button.navbar-toggle {
   clear: both;
   margin-top: 35px;
 }
+/* END HEADER */
 
-/*END OF HEADER*/
-/*Footer*/
-.panel-footer{
+/* FOOTER */
+.panel-footer {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
@@ -102,33 +95,38 @@ body{
   border-top: 0;
   color: #fff;
 }
-.panel-footer div.row{
+.panel-footer div.row {
   margin-bottom: 35px;
 }
-#hours, #address{
+#hours, #address {
   line-height: 2;
 }
-#hours > span,#address > span{
- font-size: 1.3em;
+#hours > span, #address > span {
+  font-size: 1.3em;
 }
-#address p{
+#address p {
   color: red;
   font-size: .8em;
   line-height: 1.8;
 }
-#testimonials{
+#testimonials {
   font-style: italic;
 }
-#testimonials p:nth-child(2){
+#testimonials p:nth-child(2) {
   margin-top: 25px;
 }
-/*Home Page*/
-.container .jumbotron{
+
+/* END FOOTER */
+
+
+
+/* HOME PAGE */
+.container .jumbotron {
   box-shadow: 0 0 50px maroon;
   border: 2px solid maroon;
 }
 
-#menu-tile, #specials-tile, #map-tile{
+#menu-tile, #specials-tile, #map-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -136,22 +134,18 @@ body{
   border: 2px solid maroon;
   overflow: hidden;
 }
-
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-
-#menu-tile{
-  background: url("../img/menu2.jpeg") no-repeat;
+#menu-tile {
+  background: url('../img/menu2.jpeg') no-repeat;
   background-position: center;
 }
-
-#specials-tile{
-  background: url("../img/special.jpeg") no-repeat;
+#specials-tile {
+  background: url('../img/special.jpeg') no-repeat;
   background-position: center;
 }
-
-#menu-tile span,#specials-tile span,#map-tile span{
+#menu-tile span, #specials-tile span, #map-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -161,19 +155,10 @@ body{
   text-transform: uppercase;
   background-color: #000;
   color: #fff;
-  opacity: 0.8;
+  opacity: .8;
 }
+/* END HOME PAGE */
 
-
-/*End Of Home Page*/
-
-
-#menu-categories-title{
-  color: #fff;
-}
-.text-center{
-  color: #fff;
-}
 /* MENU CATEGORIES PAGE */
 .category-tile { 
   position: relative;
@@ -207,7 +192,6 @@ body{
 /* SINGLE CATEGORY PAGE */
 .menu-item-tile {
   margin-bottom: 25px;
-  color: #fff;
 }
 .menu-item-tile hr {
   width: 80%;
@@ -253,67 +237,70 @@ h3.menu-item-title {
 
 
 /********** Large devices only **********/
-@media(min-width: 1200px)
-{
-.container .jumbotron{
-    background: url("../img/jumbotron_1200.jpg") no-repeat;
+@media(min-width: 1200px){
+  .container .jumbotron {
+    background: url('../img/jumbotron_1200.jpg') no-repeat;
     height: 675px;
   }
-
 }
 
 /********** Medium devices only **********/
-@media(min-width: 992px) and (max-width: 1199px)
-{
-  /*Header*/
-  #logo-img{
-  background: url("../img/logo_medium.png") no-repeat;
-  width:100px;
-  height:100px;
-  margin: 5px 5px 5px 0;
+@media(min-width: 992px)and (max-width: 1199px){
+  /* Header */
+  #logo-img {
+    background: url('../img/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
   }
-  .container .jumbotron{
-    background: url("../img/jumbotron_992.jpg") no-repeat;
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../img/jumbotron_992.jpg') no-repeat;
     height: 558px;
   }
+  /* End Home Page */
 }
 
 /********** Small devices only **********/
-@media(min-width: 768px) and (max-width: 991px){
-  .container .jumbotron{
-    background: url("../img/jumbotron_768.jpg") no-repeat;
+@media(min-width: 768px)and (max-width: 991px){
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../img/jumbotron_768.jpg') no-repeat;
     height: 432px;
   }
+  /* End Home Page */
 }
 
 /********** Extra small devices only **********/
 @media(max-width: 767px){
-  .navbar-brand{
-  padding-top:10px;
-  height: 80px;
-}
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
 
-.navbar-brand h1{ /*Burger King*/
-  font-size: 5vw;
-  padding-top: 10px;
-}
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
 
-.navbar-brand p{ /*Kosher certification*/
-  font-size: 0.8em;
-  text-transform: uppercase;
-  margin-top: 12px;
-}
-.navbar-brand p img{
-  height: 20px;
-}
-#collapsable-nav a{
-  font-size: 1.2em;
-}
-#collapsable-nav a span{ 
-  font-size: 1em;
-  margin-right: 5px;
-}
-#call-btn > a {
+  #call-btn > a {
     font-size: 1.5em;
     display: block;
     margin: 0 20px;
@@ -327,64 +314,67 @@ h3.menu-item-title {
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
-    color: #FFF;
+    color: #fff;
   }
-  /*  End of Header  */
-  /*  Footer  */
-  .panel-footer section{
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
     margin-bottom: 30px;
     text-align: center;
   }
-  .panel-footer section:nth-child(3){
-    margin-bottom: 0;
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
   }
-  .panel-footer section hr{
+  .panel-footer section hr {
     width: 50%;
   }
+  /* End Footer */
 
-  /*Home Page*/
+  /* Home Page */
   .container .jumbotron {
-    margin-top: 28px;
+    margin-top: 30px;
     padding: 0;
   }
-
-  #menu-tile, #specials-tile{
+  #menu-tile, #specials-tile {
     width: 360px;
     margin: 0 auto 15px;
   }
 
-  /*Single page category*/
-  .menu-item-photo{
+  .menu-item-photo {
     margin-right: auto;
   }
-  .menu-item-tile .menu-item-price{
+  .menu-item-tile .menu-item-price {
     text-align: center;
   }
-  .menu-item-description{
-    text-align: center;
+  .menu-item-description {
+    text-align: center;;
   }
-
 }
 
-@media(max-width: 479px){
-  /*Header*/
-  .navbar-brand h1{
-    padding-top: 5px;
-    font-size: 6vw;
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw;
   }
-  /*End of Header*/
-  /*Home Page*/
-  #menu-tile, #specials-tile{
-    width:280px;
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
     margin: 0 auto 15px;
   }
-  .col-xxs-12{
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  float: left;
-  width: 100%;
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
   }
 }
 
