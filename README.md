@@ -20,4 +20,7 @@ Here's the demonstration how this web-application is used in effective manner:
 ![Demo1](demo/demo1.gif)
 
 
+# Contributors
 
+- [Adarsh Srivastava][https://github.com/theAdarshSrivastava]
+- [Aditi Verma][https://github.com/adi0504]
