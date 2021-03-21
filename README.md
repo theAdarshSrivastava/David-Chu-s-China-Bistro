@@ -22,5 +22,6 @@ Here's the demonstration how this web-application is used in effective manner:
 
 # Contributors
 
-- [Adarsh Srivastava][https://github.com/theAdarshSrivastava]
-- [Aditi Verma][https://github.com/adi0504]
+- <a href="https://github.com/theAdarshSrivastava">Adarsh Srivastava</a>
+- <a href="https://github.com/adi0504">Aditi Verma</a>
+
